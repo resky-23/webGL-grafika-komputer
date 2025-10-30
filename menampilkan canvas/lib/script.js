@@ -36,7 +36,6 @@ function createShaders() {
         console.error("Fragment Shader Error:", gl.getShaderInfoLog(fragmentShader));
     }
 
-
     shaderProgram = gl.createProgram();
     gl.attachShader(shaderProgram, vertexShader);
     gl.attachShader(shaderProgram, fragmentShader);
